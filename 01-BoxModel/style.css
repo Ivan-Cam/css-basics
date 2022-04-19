@@ -1,0 +1,23 @@
+.box {
+  width: 200px;
+  height: 100px;
+}
+
+.box1 {
+  background: steelblue;
+  /* margin: top right bottom left; */
+  /* margin: 0px auto 0px auto; */
+  width: 100%;
+  margin-bottom: 50px;
+  border: 1px solid transparent;
+}
+
+.header{
+  background: gold;
+  height: 40px;
+  margin: 20px;
+}
+
+.box2 {
+  background: tomato;
+}
