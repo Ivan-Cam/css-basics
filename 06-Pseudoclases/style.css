@@ -1,0 +1,193 @@
+:root{
+  /* background: steelblue; */
+}
+
+.enlace{
+  display: block;
+  text-decoration: none;
+  background: tomato;
+  color: #fff;
+  padding: 20px;
+  border-bottom: 3px solid #ebd1bd;
+}
+
+.enlace:link{
+  background: burlywood;
+  color: #000;
+}
+
+.enlace:visited{
+  background: crimson;
+}
+
+.enlace:hover{
+  padding: 40px 20px;
+  transition: 0.3s;
+}
+
+.enlace:active{
+  background: steelblue;
+  color: #fff;
+}
+
+.event{
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 20px;
+  background: crimson;
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.event:active{
+  padding: 23px;
+}
+
+#objetivo{
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
+  margin-left: 20px;
+  background: steelblue;
+  transition: .3s;
+}
+
+#objetivo:target{
+  margin-left: 50px;
+}
+
+.form{
+  width: 80%;
+  margin: 30px auto;
+  background: #f2f2f2;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  padding: 30px;
+}
+
+.form:focus-within{
+  background: darkcyan;
+}
+
+.form_title{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input{
+  display: block;
+}
+
+input[type="text"],
+input[type="email"]{
+  width: 100%;
+  padding: 12px 5px;
+  margin-bottom: 20px;
+  border: none;
+  /* outline: none; */
+}
+
+input[type="checkbox"]{
+  display: inline-block;
+}
+
+input:focus{
+  background: rgba(220, 20, 60, 0.395);
+  color: #fff;
+}
+
+input[type="checkbox"]:checked + label{
+  background: crimson;
+  color: #fff;
+}
+
+h3{
+  font-size: 2rem;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h3:not(.title):not(:hover){
+  color: crimson;
+}
+
+h3:not(:hover){
+  text-decoration: line-through;
+}
+
+body{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.box{
+  background: steelblue;
+  width: 55px;
+  height: 55px;
+  margin: 10px 0;
+  margin-left: 5px;
+  text-align: center;
+  line-height: 55px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.container{
+  margin-left: -5px;
+  padding: 10px 0;
+  border: 3px solid crimson;
+}
+
+/* .box:only-of-type{
+  background: tomato;
+} */
+
+/* .box:first-of-type{
+  background: tomato;
+} */
+
+/* .box:last-of-type{
+  background: tomato;
+} */
+
+/* .box:nth-of-type(even){
+  background: tomato;
+} */
+
+/* .box:nth-last-of-type(1){
+  background: tomato;
+} */
+
+/* .box:only-child{
+  background: tomato;
+} */
+
+/* .box:only-child{
+  background: tomato;
+} */
+
+/* .box:first-child{
+  background: tomato;
+} */
+
+/* div:last-child{
+  background: tomato;
+} */
+
+/* div:nth-child(3){
+  background: tomato;
+} */
+
+/* .container *:nth-child(2){
+  background: tomato;
+} */
+
+/* .container *:nth-last-child(1){
+  background: tomato;
+} */
+
+body *:nth-child(1){
+  background: tomato;
+}
