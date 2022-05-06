@@ -1,0 +1,55 @@
+:root{
+  /* Variables globales */
+  --color-primario: darkcyan;
+  --box-shadow: 6px 6px 10px rgba(0, 0, 0, .5);
+  --gradient: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+body{
+  font-family: 'Arial';
+  min-height: 100vh;
+  background-image: var(--gradient);
+}
+
+.card{
+  background: #fff;
+  width: 300px;
+  margin: 30px auto;
+  padding: 30px 20px;
+  box-shadow: var(--box-shadow);
+}
+
+.card__title{
+  font-size: 30px;
+  color: var(--color-primario);
+  margin-bottom: 20px;
+}
+
+.card__cta{
+  display: inline-block;
+  padding: 12px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  background-image: var(--gradient);
+}
+
+.card2{
+  background: #fff;
+  width: 300px;
+  margin: 30px auto;
+  padding: 30px 20px;
+  box-shadow: var(--box-shadow);
+  --color-primario: blue
+}
+/* para card2 y sus hijos se cambian el valor de la variable */
+
+.card2__title{
+  font-size: 30px;
+  color: var(--color-primario, crimson);
+  margin-bottom: 20px;
+}
+/* es el valor por default en caso de no encontrar nada, hasta se puede 
+volver a poner otra variable como valor por defecto */
