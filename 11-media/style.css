@@ -1,0 +1,52 @@
+:root{
+  --color: crimson;
+
+}
+
+.title{
+  font-size: 3rem;
+  color: var(--color);
+  margin: 40px 0;
+  text-align: center;
+  font-family: monospace;
+}
+
+/* @media <media-type> and (expression){
+  
+} */
+
+@media print{
+  .title{
+    color: steelblue;
+    font-size: 5rem;
+    text-align: right;
+    font-family: cursive;
+  }
+}
+/*      and
+@media screen and () and () {
+  
+}
+
+        or
+@media screen and (), () {
+  
+} */
+
+/* @media screen and ( orientation:landscape ) {
+  .title{
+    margin: 0;
+    color: steelblue;
+  }
+} */
+
+/* @media screen and ( max-width: 600px ) {
+  :root{
+    --color: #fff
+  }
+
+  .title{
+    background: #000;
+    color: var(--color);
+  }
+} */
